@@ -1,0 +1,45 @@
+Q. How did viewing a diff between two versions of a file help you see 
+the bug that was introduced?
+
+A. Because diff provides information about changes to a file 
+line-by-line, it was easy to see that 1) a line had been changed 2) the 
+new line included a misspelling of the word 'space'
+
+Q. How could having easy access to the entire history of a file make you 
+a more efficient programmer in the long term?
+
+A. Not only does it become easy to rollback to stable states, but you 
+can track additions or changes to your code over time.
+
+Q. What do you think are the pros and cons of manually choosing when to 
+create a commit, like you do in Git, vs having versions automatically 
+saved, like Google Docs does?
+
+A. Auto-save is useful because it makes it virtually impossible to lose 
+work. However, autosaves may not capture meaningful chunks of work 
+between snapshots.
+
+Q. Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+A. Probably because systems like Dropbox or Google Docs aren't typically 
+used for tracking changes to multiple files that depend on one another 
+(e.g. the HTML files and CSS stylesheets that make up a website.)
+
+Q. How can you use the commands git log and git diff to view the history 
+of files?
+
+A. 'git log' will show history of commits, 'git log --stat' will show 
+statistics about the number of insertions and deletions, 'git diff 
+[previous commit] [next commit]' will show the differences between the 
+two commits
+
+Q. How might using version control make you more confident to make 
+changes that could break something?
+
+A. You will always be able to revert back to a stable state.
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+A. Not only would I like to use it to keep track of project files for this course, but I would also like to use it for developing personal projects and contributing to open source projects.
