@@ -40,6 +40,9 @@ changes that could break something?
 
 A. You will always be able to revert back to a stable state.
 
-Q. Now that you have your workspace set up, what do you want to try using Git for?
+Q. Now that you have your workspace set up, what do you want to try 
+using Git for?
 
-A. Not only would I like to use it to keep track of project files for this course, but I would also like to use it for developing personal projects and contributing to open source projects.
+A. Not only would I like to use it to keep track of project files for
+this course, but I would also like to use it for developing personal 
+projects and contributing to open source projects.
